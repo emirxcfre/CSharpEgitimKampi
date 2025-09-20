@@ -1,0 +1,168 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _04_Loops
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            #region For Döngüsü
+
+            //For(x;y;z)
+            //x: Başlangıç değeri
+            //y: Koşul/Bitiş değeri
+            //z: Artış veya azalış değeri
+
+            //int i;
+
+            //for (i = 1; i <= 5; i++)
+            //{
+            //    Console.WriteLine("C# Eğitim Kampı");
+            //}
+
+            //for (int i = 1; i <= 20; i++)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+            //for (int i = 3; i <= 50; i += 3)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+            //Console.Write("Lütfen Ekrana Yazdırmak İstediğiniz Adedi Giriniz: ");
+            //int finishValue = int.Parse(Console.ReadLine());
+
+            //for (int i = 1; i <= finishValue; i++)
+            //{
+            //    Console.WriteLine("Yaşasın Cumhuriyet");
+            //}
+
+            #endregion
+
+            #region For Döngüsü İle Karar Yapıları
+
+            //for (int i = 1; i <= 100; i++)
+            //{
+            //    if ((i % 5 == 0))
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+            //}
+
+            //int totalValue = 0;
+
+            //for (int i = 1; i <= 10; i++)
+            //{
+            //    totalValue += i;
+            //}
+
+            //Console.WriteLine("Toplam Değer: " + totalValue);
+
+            //int totalValue = 0;
+            //for (int i = 1; i < 20; i++)
+            //{
+            //    if (i % 2 == 0)
+            //    {
+            //        totalValue += i;
+            //    }
+            //}
+
+            //Console.WriteLine("Toplam Değer: " + totalValue);
+
+            //1-50 Arası 7 ye tam bölünen kaç sayı var
+
+            //int count = 0;
+            //for (int i = 1; i <= 50; i++)
+            //{
+            //    if (i % 7 == 0)
+            //    {
+            //        count++;
+            //        Console.WriteLine(i);
+            //    }
+            //}
+
+            //Console.WriteLine("-------------------------");
+            //Console.WriteLine("1-50 Arası 7'ye Tam Bölünen Sayı Adedi: " + count);
+
+            #endregion
+
+            #region For Döngüsü İle Bakteri Örneği
+
+            //Bir bakterinin 1 saatte ikiye bölündüğünü varsayalım.
+            //1-2-4-8-16-32-64-128-256-512-1024
+            //1 bakterinin 24 saat sonra kaç tane olacağını hesaplayalım.
+
+            //int bacteriumCount = 1;
+
+            //for (int i = 1; i <= 24; i++)
+            //{
+            //    bacteriumCount *= 2;
+            //    Console.WriteLine(i + ". Saatin Sonunda: " + bacteriumCount);
+            //}
+
+            #endregion
+
+            #region While Döngüsü
+
+            //While(koşul)
+            //{
+            //Yapılacak İşlemler
+            //}
+
+            //int i = 1;
+
+            //while (i <= 10)
+            //{
+            //    Console.WriteLine("Merhaba Döngüler");
+            //    i++;
+            //}
+
+            //int i = 1;
+            //while (i <= 10)
+            //{
+            //    if (i % 3 == 0)
+            //    {
+            //        Console.WriteLine(i);
+            //    }
+            //    i++;
+            //}
+
+            //int i = 1;
+            //int sum = 0;
+            //while (i <= 10)
+            //{
+            //    sum += i;
+            //    i++;
+            //}
+
+            //Console.WriteLine("Toplam Değer: " + sum);
+
+            #endregion
+
+            #region Örnek Sınav Sorusu
+
+            //Klavyeden girilen 3 basamaklı sayının basamaklarının toplamını hesaplayan
+            //kodu yazınız.
+
+            //Console.Write("Lütfen 3 Basamaklı Bir Sayı Giriniz: ");
+            //int number = int.Parse(Console.ReadLine());
+            //int total = 0;
+
+            //while (number != 0)
+            //{
+            //    total += number % 10;
+            //    number /= 10;
+            //}
+            //Console.WriteLine("Basamak Toplamı: " + total);
+
+            #endregion
+
+            Console.Read();
+        }
+    }
+}
